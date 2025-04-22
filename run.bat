@@ -1,3 +1,3 @@
 @echo off
-python3 test.py
+python test.py
 pause
