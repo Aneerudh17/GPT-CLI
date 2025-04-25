@@ -1,6 +1,8 @@
 import requests
 import json
-API_KEY = 'AIzaSyAvuF-suy3TC7a3PQLWR6HvYC6vXp24FRw'
+API_KEY = '<your api key here bud'
+#the url keeps changing so visit the official docs of openai for the latest url
+#also rememeber to encrypt your key before uploading to git
 url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={API_KEY}"
 headers = {
     'Content-Type': 'application/json'
